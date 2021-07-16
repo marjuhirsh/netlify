@@ -6,8 +6,7 @@ function Basket(props) {
           <ul>Basket Items:    
               {cartItems.map((item) => 
                 <li key={`item-${item.name}`}>
-                  {item.price} {item.name}
-             
+                  {item.price} {item.name}             
                 </li>)}
        
         </ul>
