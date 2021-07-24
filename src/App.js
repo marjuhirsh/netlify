@@ -18,7 +18,6 @@
   function App() {
     
     const [product, setProduct] = useState(null)
-    const [shoppingBasket, setShoppingBasket] = useState({})
     const [cartItems, setcartItems] = useState([]);
 
     // const {product} = data;
