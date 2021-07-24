@@ -1,7 +1,6 @@
 function Basket(props) {
   const {cartItems} = props;
   return (
-
        <div>
           <ul>Basket Items:    
               {cartItems.map((item) => 
